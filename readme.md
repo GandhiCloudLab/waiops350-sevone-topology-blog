@@ -6,7 +6,7 @@ In addition to events, the topology found in the SevOne may also be copied to Wa
 
 The script is available in [scripts](./scripts) folder.
 
-![SevOne](../images/img-01-topo.png)
+![SevOne](./images/img-01-topo.png)
 
 ## 1. Create File Observer Job in Watson AIOps
 
