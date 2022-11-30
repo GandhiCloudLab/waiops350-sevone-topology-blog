@@ -6,7 +6,7 @@ In addition to events, the topology found in the SevOne may also be copied to Wa
 
 The script is available in [scripts](./scripts) folder.
 
-![SevOne](./images/img-01-topo.png)
+![SevOne](images/img-01-topo.png)
 
 ## 1. Create File Observer Job in Watson AIOps
 
@@ -14,8 +14,8 @@ Create File Observer Job in Watson AIOps to observe the topology from the File.
 
 Sample data is given as screenshot.
 
-![File Observer](./images/image1.png)
-![File Observer](./images/image2.png)
+![File Observer](images/image1.png)
+![File Observer](images/image2.png)
 
 The detailed explanation about how to create File Observer Job is explained here https://github.com/GandhiCloudLab/ibm-watson-aiops/tree/main/07-topology-fileobserver
 
@@ -117,12 +117,12 @@ sh 31-run-local-topology.sh
 #### Topology in SevOne
 Here is the sample topology from SevOne
 
-![Topology](./images/image3.png)
+![Topology](images/image3.png)
 
 #### Topology in WAIOps
 Here is the copied topology in WAIOps
 
-![Topology](./images/image4.png)
+![Topology](images/image4.png)
 
 
 ## 6. Sample Topology Files
@@ -145,16 +145,16 @@ Here is the mapping between SevOne and FileObserver files.
 
 `nodes` section contains devices with ids `10` and `2`
 
-![Topology](./images/image5.png)
+![Topology](images/image5.png)
 
 `links` section shows devices `10` and `2` are connected
 
-![Topology](./images/image6.png)
+![Topology](images/image6.png)
 
 
 #### FileObserver format for WAIOps
 
 FileObserver file shows that Node `10` is referencing node `2`
 
-![Topology](./images/image7.png)
+![Topology](images/image7.png)
 
